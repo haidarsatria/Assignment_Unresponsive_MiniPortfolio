@@ -1,0 +1,319 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+header{
+    border-style: solid;
+    border-color: rgb(7, 211, 7) ;
+    border-width: 1px 0px 1px 0px;
+    padding: 15px 20px 0px 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px 0px 45px;
+    color: white;
+    align-items: center;
+    
+}
+.nav .logo{
+    background-image: radial-gradient(white,black);
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    background-clip: text;
+    font-size: 25px;
+}
+header .nav-menu ul{
+    display: flex;
+    gap: 5rem;
+}
+header .nav-menu ul li{
+    list-style-type: none;
+}
+
+header .nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 12px;
+}
+header .nav-menu ul li a:hover{
+    border-style: solid;
+    border-color: green;
+    color: rgb(6, 178, 6);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
+}
+.typewriter{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.typewriter p{
+    font-size: 35px;
+}
+.photos{
+    padding: 0px 5px 0px 5px;
+}
+.profile .photos img{
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+}
+.typewriter h1{
+    font-size: 35px;
+}
+.photos h6{
+    color: rgb(9, 233, 61);
+    position: absolute;
+    z-index: 0;
+    font-size: 25px;
+    top: 150px;
+    right: 25px;
+    font-family: "minecraft",Verdana;
+}
+.photos h5{
+    color: rgb(9, 233, 61);
+    position: absolute;
+    z-index: 0;
+    font-size: 25px;
+    top: 250px;
+    
+    font-family: "minecraft",Verdana;
+}
+.photos h4{
+    color: rgb(9, 233, 61);
+    position: absolute;
+    z-index: 0;
+    font-size: 25px;
+    top: 350px;
+    right: 100px;
+    font-family: "minecraft",Verdana;
+}
+.typewriter h2 {
+    font-size: 35px;
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(40, end)
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.skill{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skill .grey{
+    width: 65%;
+    border-style: solid;
+    height: 24px;
+    border-color: black;
+    background-color: rgb(235, 223, 223);
+    margin: 10px 0px 10px 0px;
+    border-radius: 7px;
+}
+.grey .Web{
+    background-color: rgb(33, 163, 33);
+    width: 98%;
+    height: 24px;
+    top: 10px;
+    border-radius: 5px;
+}
+.grey .Desain{
+    background-color: rgb(33, 163, 33);
+    width: 95%;
+    height: 24px;
+    top: 10px;
+    border-radius: 5px;
+}
+.grey .UI{
+    background-color: rgb(33, 163, 33);
+    width: 86%;
+    height: 24px;
+    top: 10px;
+    border-radius: 5px;
+}
+.grey .android{
+    background-color: rgb(33, 163, 33);
+    width: 45%;
+    height: 24px;
+    top: 10px;
+    border-radius: 5px;
+}
+.sub-title{
+    font-size: 50px;
+    padding-bottom: 35px;
+}
+.academy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.academy .logo-academy{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+}
+.academy .logo-academy .smk img{
+    height: 350px;
+}
+.academy .logo-academy .kuliah img{
+    height: 350px;
+}
+.academy h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.academy h4{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem;
+    gap: 5rem;
+    
+}
+.project .group-pro{
+    display: flex;
+    gap: 5em;
+    
+}
+.project .group-pro .pro1 {
+    text-align: center;
+    padding: 12px;
+    background-color: black;
+    border-style: dotted;
+    border-color: rgb(6, 197, 6);
+    border-width: 1px;
+    border-radius: 12px;
+}
+.project .group-pro .pro2 {
+    text-align: center;
+    padding: 12px;
+    background-color: black;
+    border-style: dotted;
+    border-color: rgb(6, 197, 6);
+    border-width: 1px;
+    border-radius: 12px;
+}
+.project .group-pro .pro3 {
+    text-align: center;
+    padding: 12px;
+    background-color: black;
+    border-style: dotted;
+    border-color: rgb(6, 197, 6);
+    border-width: 1px;
+    border-radius: 12px;
+}
+.project .group-pro .pro1:hover {
+    box-shadow: 0px 0px 10px white;
+}
+.project .group-pro .pro2:hover {
+    box-shadow: 0px 0px 10px white;
+}
+.project .group-pro .pro3:hover {
+    box-shadow: 0px 0px 10px white;
+
+}
+.project .group-pro .pro1,.pro2,.pro3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.project .group-pro .pro1 img{
+    height: 300px;
+}
+.project .group-pro .pro2 img{
+    height: 300px;
+}
+.project .group-pro .pro3 img{
+    height: 300px;
+}
+footer .foot{
+    background-color: black;
+    padding: 15px;
+    color: rgb(6, 205, 6);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(7, 211, 7);
+    border-width: 1px;
+}
+main aside{
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end:0 ;
+}
+
+main aside .social-media{
+    height: 100%;
+    display: flex;
+}
+main aside .social-media ul{
+    padding: 1.5rem 1rem;
+    margin: auto;
+    border-top-left-radius:12px ;
+    border-bottom-left-radius: 12px;
+    background-color:black ;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(7, 211, 7);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+main aside .social-media li{
+    list-style-type: none;
+}
+main aside .social-media li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .1s ease-in-out;
+}
+main aside .social-media li a:hover{
+    color: green;
+}
